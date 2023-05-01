@@ -12,12 +12,13 @@ const Movie = ({
   <>
     <img src={IMG_API + poster_path} alt={title} />
     <div className="filmiNimi">{title} </div>
+
+    <div className="ylevaade" maxChar="30">
+      {overview}
+    </div>
     <div>
       <div className="keskminehinne">Keskmine hinne: {vote_average}</div>
       <div className="kuupaev">Release date: {release_date}</div>
-    </div>
-    <div className="ylevaade" maxChar="30">
-      {overview}
     </div>
     <button
       class="readmoreNupp"
