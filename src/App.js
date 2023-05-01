@@ -39,12 +39,13 @@ function App() {
   return (
     movies && (
       <div className="body">
-        <h1>Populaarsemad FILMID</h1>{" "}
-        <SearchBox
-          className="otsing"
-          searchValue={searchValue}
-          setSearchValue={setSearchValue}
-        />
+        <div className="header">
+          <h1>Populaarsemad FILMID</h1>{" "}
+          <SearchBox
+            searchValue={searchValue}
+            setSearchValue={setSearchValue}
+          />
+        </div>
         <ol className="filmiNimekiri">
           {movies.map((movie) => (
             <li className="card">
