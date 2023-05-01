@@ -1,6 +1,6 @@
 {
-  "name": "filmiprojekt",
   "homepage": "https://MariaKlam.github.io/filmiprojekt",
+  "name": "filmiprojekt",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
