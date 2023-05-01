@@ -6,7 +6,7 @@ import SearchBox from "./components/SearchBox.js";
 import MovieListHeading from "./components/MovieListHeading.js";
 
 const API_URL =
-  "https://api.themoviedb.org/3/movie/popular?api_key=abc943e25a6ebfc0e3a3e1d5b08a7413";
+  "http://api.themoviedb.org/3/movie/popular?api_key=abc943e25a6ebfc0e3a3e1d5b08a7413";
 
 function App() {
   const [movies, setMovies] = useState([]);
