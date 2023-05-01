@@ -6,14 +6,14 @@ import SearchBox from "./components/SearchBox.js";
 import MovieListHeading from "./components/MovieListHeading.js";
 
 const API_URL =
-  "http://api.themoviedb.org/3/movie/popular?api_key=abc943e25a6ebfc0e3a3e1d5b08a7413";
+  "https://api.themoviedb.org/3/movie/popular?api_key=abc943e25a6ebfc0e3a3e1d5b08a7413";
 
 function App() {
   const [movies, setMovies] = useState([]);
   const [searchValue, setSearchValue] = useState("");
 
   const getMovieRequest = async (searchValue) => {
-    const url = `http://www.omdbapi.com/?s=${searchValue}&apikey=263d22d8`;
+    const url = `https://www.omdbapi.com/?s=${searchValue}&apikey=263d22d8`;
     //`http://api.themoviedb.org/3/search/movie?api_key=abc943e25a6ebfc0e3a3e1d5b08a7413&query=${searchValue}`;
 
     const response = await fetch(url);
