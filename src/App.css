@@ -1,11 +1,11 @@
 /*- Font sizes (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98*/
 
-body {
+.body {
   display: inline-block;
   background: #928f8f;
   color: #fcf9f9;
-  margin-left: 50px;
+
   padding: 20px;
   width: 100%;
   align-content: center;
@@ -19,7 +19,7 @@ h1 {
   font-size: 52px;
 }
 
-ol {
+.ol {
   color: #000000;
 }
 
@@ -44,7 +44,7 @@ ol {
   margin-bottom: 15px;
   font-weight: bold;
 }
-img {
+.img {
   background-color: black;
   border-radius: 14px;
   width: 100%;

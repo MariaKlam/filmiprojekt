@@ -3,7 +3,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Movie from "./components/MovieList.js";
 import SearchBox from "./components/SearchBox.js";
-import MovieListHeading from "./components/MovieListHeading.js";
 
 const API_URL =
   "https://api.themoviedb.org/3/movie/popular?api_key=abc943e25a6ebfc0e3a3e1d5b08a7413";
@@ -39,8 +38,8 @@ function App() {
   console.log(movies);
   return (
     movies && (
-      <div>
-        <MovieListHeading heading="Populaarsemad FILMID" />{" "}
+      <div className="body">
+        <h1>Populaarsemad FILMID</h1>{" "}
         <SearchBox searchValue={searchValue} setSearchValue={setSearchValue} />
         <ol>
           {movies.map((movie) => (
