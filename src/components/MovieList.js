@@ -20,7 +20,7 @@ const Movie = ({
       {overview}
     </div>
     <button
-      class="btn btn-secondary"
+      class="readmoreNupp"
       type="button"
       data-mdb-toggle="collapse"
       data-mdb-target="#collapseExample"
