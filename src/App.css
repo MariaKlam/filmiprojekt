@@ -29,7 +29,9 @@ h1 {
 }
 
 .filmiNimekiri {
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
+
   color: #000000;
 }
 
