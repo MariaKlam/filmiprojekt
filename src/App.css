@@ -18,6 +18,7 @@ h1 {
 }
 
 .filmiNimekiri {
+  display: inline-block;
   color: #000000;
 }
 
