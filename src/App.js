@@ -40,7 +40,11 @@ function App() {
     movies && (
       <div className="body">
         <h1>Populaarsemad FILMID</h1>{" "}
-        <SearchBox searchValue={searchValue} setSearchValue={setSearchValue} />
+        <SearchBox
+          className="otsing"
+          searchValue={searchValue}
+          setSearchValue={setSearchValue}
+        />
         <ol className="filmiNimekiri">
           {movies.map((movie) => (
             <li className="card">
