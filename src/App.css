@@ -2,10 +2,8 @@
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98*/
 
 .body {
-  display: inline-block;
   background: #928f8f;
   color: #fcf9f9;
-
   padding: 20px;
   width: 100%;
   align-content: center;
@@ -19,7 +17,7 @@ h1 {
   font-size: 52px;
 }
 
-.ol {
+ol {
   color: #000000;
 }
 
